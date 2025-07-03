@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Matheus Henrique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dev Matheus Henrique</h1>
+        
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#formacao">Formações</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container" id="inicio"> 
+        
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>
+                Olá, Meu nome é Matheus Henrique, tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Uninter.
+                <br><br>
+                Desde pequeno, sempre gostei de mexer em computadores e sempre fui muito ativo na internet, mas foi depois de me formar no ensino médio que descobri o mundo da programação. No primeiro contato parecia impossivel mas, depois fui perdendo medo e me aprofundando mais, de todas as áreas, o Back-end foi a que mais me chamou a atenção e é nele que estou me especializando.
+                <br><br>
+                Atualmente, meu foco é me dedicar ao máximo aos estudos. Busco sempre contribuir em todos os lugadores que trabalho com muito foco e dedicação.
+            </p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formações</h2>
+            
+            <div class="formacao-item">
+                <h3>Superior</h3>
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+                <p><strong>Instituição:</strong> UNINTER</p>
+                <p><strong>Período:</strong> 2025 - 2027</p>
+            </div>
+
+            <div class="formacao-item">
+                <h3>Ensino Médio</h3>
+                <p><strong>Escola:</strong> E.E Jardim Silvia 2, Francisco Morato - São Paulo</p>
+                <p><strong>Situação:</strong> Completo</p>
+            </div>
+
+            <h3>Idiomas</h3>
+            <p><strong>Português:</strong> Nativo</p>
+            <p><strong>Inglês:</strong> Básico</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+
+            <div class="projeto-card">
+                <div class="projeto-info">
+                    <h3>Sistema de Livraria em Python</h3>
+                    <p>
+                        Um sistema de console desenvolvido em Python para gerenciar o estoque,
+                        as vendas e os clientes de uma livraria.
+                    </p>
+                    <a href="https://github.com/theushw/Livraria.git" target="_blank">Ver no GitHub</a>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="projeto-info">
+                    <h3>Sistema para Copiadora em Python</h3>
+                    <p>
+                        Solução em Python para calcular custos de impressão, controlar pedidos
+                        e gerenciar serviços em uma loja de fotocópias.
+                    </p>
+                    <a href="https://github.com/theushw/Copiadora.git" target="_blank">Ver no GitHub</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        
+        <form class="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+            
+            <button type="submit" class="botao-submit">Enviar</button>
+        </form>
+
+        <div class="linkedin-link">
+            <a href="https://www.linkedin.com/in/matheus-henrique-aa640425a" target="_blank">Ou me encontre no LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>
